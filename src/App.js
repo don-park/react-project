@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Say from './component/Say';
+import EventPractice from './component/EventPractice';
 
 function App() {
-  return <Say/>;
+  return <EventPractice/>;
 }
 
 export default App;

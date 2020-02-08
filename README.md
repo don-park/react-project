@@ -1,12 +1,11 @@
 
-# Ch3. Component
-함수형 컴포넌트 - useState <br/>
-클래스 컴포넌트 - state
-
-state 객체의 내용을 변경해야 하는 경우, <br/>
-직접 수정하지 말고 setState 또는 useState를 통해 전달 받은 세터함수를 사용해야 함
-
-
+# Ch4. Event Handling
+이벤트 이름 표기법은 camelCase <br/>
+실행할 JS코드 전달 X, 함수 형태의 값을 전달 <br/>
+DOM요소에만 설정 가능, 직접 만든 컴포넌트에는 이벤트 적용불가 <br/>
+직접 만든 컴포넌트에서 onClick등을 사용하면 props로 간주된다. <br/>
+단, props로 전달받은 하위 컴포넌트에서 DOM요소에 이벤트 적용하는 것은 가능하다.
 
 
+<br/><br/><br/><br/>
 참고서적: 리액트를 다루는 기술 (길벗)
